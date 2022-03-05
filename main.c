@@ -24,7 +24,7 @@ void alpha(char str1[N], char str2[N])
             break;
         }
 
-    } while ( (str1[i] != '\0' && str2[i] != '\0'));
+    } while ( str1[i] != '\0' && str2[i] != '\0' );
 
     printf("1- %s", er);
     printf("2- %s", eme);
